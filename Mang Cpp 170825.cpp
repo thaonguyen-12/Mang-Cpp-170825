@@ -44,7 +44,7 @@ public:
             dia_chi = NULL;
     }
 
-    // Overload toán tử []
+   
     int& operator[](int i)
     {
         if ((i < 0) || (i >= so_luong))
